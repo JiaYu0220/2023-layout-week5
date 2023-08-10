@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Assignment | ANSWER</title>
+    <script type="module" crossorigin src="/2023-layout-week5/assets/main-2d03eebe.js"></script>
+    <link rel="stylesheet" href="/2023-layout-week5/assets/main-0e3f93bb.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!--===============================
+ =            sidebar             =
+ ================================-->
+<nav class="sidebar navbar d-flex flex-column bg-light align-items-start p-7">
+  <h1 class="mb-7">
+    <img src="/2023-layout-week5/assets/logo-ANSWER-5336fb45.svg" alt="logo" />
+  </h1>
+  <ul class="list-unstyled navbar-nav flex-column">
+    <!-- 1 -->
+    <li class="nav-item fw-bold mb-2">
+      <a class="nav-link ps-0 d-flex align-items-center" href="#"
+        ><span class="material-symbols-outlined icon-fill me-4">
+          insert_chart </span
+        >Dashboard</a
+      >
+    </li>
+    <!-- 2 -->
+    <li class="nav-item fw-bold mb-2">
+      <a class="nav-link ps-0 d-flex align-items-center" href="#"
+        ><span class="material-symbols-outlined icon-fill me-4"> forum </span
+        >Question</a
+      >
+    </li>
+    <!-- 3 -->
+    <li class="nav-item fw-bold mb-2">
+      <a
+        class="nav-link ps-0 d-flex align-items-center  active"
+        aria-current="page"
+        href="./index.html"
+        ><span class="material-symbols-outlined icon-fill me-4">
+          assignment </span
+        >Assignment</a
+      >
+    </li>
+    <!-- 4 -->
+    <li class="nav-item fw-bold mb-2">
+      <a class="nav-link ps-0 d-flex align-items-center" href="#"
+        ><span class="material-symbols-outlined icon-fill me-4">
+          video_library </span
+        >Course</a
+      >
+    </li>
+    <!-- 5 -->
+    <li class="nav-item fw-bold mb-2">
+      <a
+        class="nav-link ps-0 d-flex align-items-center "
+        href="./admin.html"
+        ><span class="material-symbols-outlined icon-fill me-4"> group </span
+        >Admin</a
+      >
+    </li>
+    <!-- 6 -->
+    <li class="nav-item fw-bold">
+      <a class="nav-link ps-0 d-flex align-items-center" href="#"
+        ><span class="material-symbols-outlined icon-fill me-4"> settings </span
+        >Setting</a
+      >
+    </li>
+  </ul>
+  <div class="mt-auto d-flex align-items-center">
+    <div class="me-4">
+      <img
+        class="img-fluid avatar"
+        src="/2023-layout-week5/assets/andychen-f14fef59.jpeg"
+        alt="andychen"
+      />
+    </div>
+
+    <div>
+      <p class="fw-bold mb-1">Andy Chen</p>
+      <p class="text-muted mb-0">andy0401@mail.com</p>
+    </div>
+  </div>
+</nav>
+
+      <!--===============================
+         =              nav               =
+         ================================-->
+      <div class="main">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-between mb-3"
+        >
+          <!-- 左 -->
+          <div class="d-flex align-items-center">
+            <h2 class="fs-4 fw-bold me-9 py-7">Assignment</h2>
+            <select
+              class="form-select dropdown-arrow-primary border-0 fw-bold"
+              aria-label="All Courses"
+              style="width: 130px"
+            >
+              <option selected>All Courses</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <!-- 右 -->
+          <div>
+            <a class="btn-link me-6" href="#"
+              ><span class="material-symbols-outlined"> search </span>
+            </a>
+            <a class="btn-link" href="#"
+              ><span class="material-symbols-outlined icon-fill">
+                notifications_active
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="d-flex">
+          <!--===============================
+           =             course             =
+           ================================-->
+          <div class="me-4">
+            <div class="d-flex justify-content-between mb-1">
+              <div class="d-flex align-items-center fw-bold">
+                All (4)<span
+                  class="material-symbols-outlined text-primary ms-2"
+                >
+                  expand_more
+                </span>
+              </div>
+              <p class="fs-8 text-muted text-end mb-0">2 comments</p>
+            </div>
+
+            <div class="d-flex">
+              <!-- 左 list -->
+              <ul class="list-group me-4" style="min-width: 320px">
+                <!-- 1 -->
+                <li class="list-group-item list-group-item-action active">
+                  <div class="d-flex justify-content-between mb-1">
+                    <div class="fs-8">Chapter Assignment 2</div>
+                    <div class="fs-8">4 hrs ago</div>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <div class="fw-bold">CPlease check this file…</div>
+                    <div class="fs-8 text-muted mt-1">Emily Wang</div>
+                  </div>
+                </li>
+                <!-- 2 -->
+                <li class="list-group-item list-group-item-action">
+                  <div class="d-flex justify-content-between mb-1">
+                    <div class="fs-8">Chapter Assignment 1</div>
+                    <div class="fs-8">12 hrs ago</div>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <div class="fw-bold">My Homework</div>
+                    <div class="fs-8 text-muted mt-1">David Xu</div>
+                  </div>
+                </li>
+                <!-- 3 -->
+                <li class="list-group-item list-group-item-action">
+                  <div class="d-flex justify-content-between mb-1">
+                    <div class="fs-8">CFinal Assignment</div>
+                    <div class="fs-8">18 hrs ago</div>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <div class="fw-bold">Have a problem with this…</div>
+                    <div class="fs-8 text-muted mt-1">Tony Wei</div>
+                  </div>
+                </li>
+                <!-- 4 -->
+                <li class="list-group-item list-group-item-action">
+                  <div class="d-flex justify-content-between mb-1">
+                    <div class="fs-8">Final Assignment</div>
+                    <div class="fs-8">19 hrs ago</div>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <div class="fw-bold">Did I do it right?</div>
+                    <div class="fs-8 text-muted mt-1">Christina Lin</div>
+                  </div>
+                </li>
+              </ul>
+
+              <!-- 右 -->
+              <div>
+                <!-- card -->
+                <div class="card border-secondary mb-3" style="width: 100%">
+                  <!-- card-header -->
+                  <div
+                    class="card-header py-3 d-flex justify-content-between align-items-center"
+                  >
+                    <div>
+                      <div class="fs-8">Chapter Assignment 2 / HTML&CSS</div>
+                      <div class="fw-bold">
+                        Please check this file for me, thanks!
+                      </div>
+                    </div>
+
+                    <div class="btn-group dropend">
+                      <button
+                        type="button"
+                        class="btn btn-link"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <span class="material-symbols-outlined">
+                          more_vert
+                        </span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Another action</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Something else here</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- card-body 1 -->
+                  <div class="card-body">
+                    <div class="d-flex">
+                      <div class="me-2">
+                        <img
+                          class="img-fluid avatar"
+                          src="/2023-layout-week5/assets/emilywang-cc5a821b.jpeg"
+                          alt="emilywang"
+                        />
+                      </div>
+                      <div>
+                        <h5 class="card-title fs-6 fw-bold mb-1">Emily Wang</h5>
+                        <div class="text-muted fs-8 mb-4">
+                          10:38 AM (4 hours ago)
+                        </div>
+                        <p class="card-text fs-7">
+                          Hi Teacher, the attached file is my homework of
+                          chapter 2. And here comes a question: Why in the
+                          following code the height of the
+                          <span class="code">div</span> is bigger than the
+                          height of the
+                          <span class="code">img</span>
+                          ? There is a gap below the image, but it doesn’t seems
+                          to be a padding/margin.<br />What is the gap or extra
+                          space below image?
+                        </p>
+                        <a
+                          href="path_to_file"
+                          class="btn btn-light fw-bold py-3 ps-3 pe-4 d-flex align-items-center border-secondary"
+                          download="..."
+                        >
+                          <span class="material-symbols-outlined me-2">
+                            attach_file </span
+                          >HW-2-David.zip
+                        </a>
+                      </div>
+                    </div>
+                    <hr class="w-100" />
+                    <!-- card-body 2 -->
+                    <div class="d-flex">
+                      <div class="me-2">
+                        <img
+                          class="img-fluid avatar"
+                          src="/2023-layout-week5/assets/andychen-f14fef59.jpeg"
+                          alt="andychen"
+                        />
+                      </div>
+                      <div>
+                        <div class="d-flex justify-content-between">
+                          <div>
+                            <h5 class="card-title fs-6 fw-bold mb-1">
+                              Andy Chen (You)
+                            </h5>
+                            <div class="text-muted fs-8 mb-4">
+                              13:24 AM (1 hours ago)
+                            </div>
+                          </div>
+                          <div>
+                            <a class="btn-link" href="#"
+                              ><span class="material-symbols-outlined me-6">
+                                star
+                              </span>
+                            </a>
+                            <a class="btn-link" href="#">
+                              <span class="material-symbols-outlined icon-fill">
+                                edit
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                        <p class="card-text fs-7">
+                          Hi David, by default, an image is rendered inline,
+                          like a letter so it sits on the same line that a, b, c
+                          and d sit on. There is space below that line for the
+                          descenders you find on letters like g, j, p and q.
+                          <br /><br />You can: <br /><br />
+                          　• adjust the
+                          <span class="code">vertical-align</span> of the image
+                          to position it elsewhere (e.g. the
+                          <span class="code">middle</span> ) or <br />　• change
+                          the <span class="code">display</span> so it isn’t
+                          inline.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- page & button -->
+                <div class="d-flex justify-content-between">
+                  <nav aria-label="Page navigation ">
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a
+                          class="page-link border-0 p-1 me-6"
+                          href="#"
+                          aria-label="Previous"
+                        >
+                          <span class="material-symbols-outlined">
+                            chevron_left
+                          </span>
+                        </a>
+                      </li>
+                      <li class="page-item">
+                        <a
+                          class="page-link border-0 p-1"
+                          href="#"
+                          aria-label="Next"
+                        >
+                          <span class="material-symbols-outlined">
+                            chevron_right
+                          </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+
+                  <div
+                    class="btn-group"
+                    role="group"
+                    aria-label="Basic outlined example"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-outline-primary px-7 py-2 me-4 fw-bold"
+                    >
+                      Mark as read
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-primary px-7 py-2 fw-bold"
+                    >
+                      Reply
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </body>
+</html>
