@@ -1,6 +1,74 @@
-<div class="d-flex flex-column">
-  <h1><img src="../assets/images/logo-ANSWER.svg" alt="logo" /></h1>
-  <ul class="list-unstyled">
-    <li><a href="#">Dashboard</a></li>
+<!--===============================
+ =            sidebar             =
+ ================================-->
+<nav class="sidebar navbar d-flex flex-column bg-light align-items-start p-7">
+  <h1 class="mb-7">
+    <img src="../assets/images/logo-ANSWER.svg" alt="logo" />
+  </h1>
+  <ul class="list-unstyled navbar-nav flex-column">
+    <!-- 1 -->
+    <li class="nav-item fw-bold mb-2">
+      <a class="nav-link ps-0 d-flex align-items-center" href="#"
+        ><span class="material-symbols-outlined icon-fill me-4">
+          insert_chart </span
+        >Dashboard</a
+      >
+    </li>
+    <!-- 2 -->
+    <li class="nav-item fw-bold mb-2">
+      <a class="nav-link ps-0 d-flex align-items-center" href="#"
+        ><span class="material-symbols-outlined icon-fill me-4"> forum </span
+        >Question</a
+      >
+    </li>
+    <!-- 3 -->
+    <li class="nav-item fw-bold mb-2">
+      <a
+        class="nav-link ps-0 d-flex align-items-center <%if(page=='Assignment'){%> active<%}%>"
+        aria-current="page"
+        href="./index.html"
+        ><span class="material-symbols-outlined icon-fill me-4">
+          assignment </span
+        >Assignment</a
+      >
+    </li>
+    <!-- 4 -->
+    <li class="nav-item fw-bold mb-2">
+      <a class="nav-link ps-0 d-flex align-items-center" href="#"
+        ><span class="material-symbols-outlined icon-fill me-4">
+          video_library </span
+        >Course</a
+      >
+    </li>
+    <!-- 5 -->
+    <li class="nav-item fw-bold mb-2">
+      <a
+        class="nav-link ps-0 d-flex align-items-center <%if(page=='Admin'){%>active<%}%>"
+        href="./admin.html"
+        ><span class="material-symbols-outlined icon-fill me-4"> group </span
+        >Admin</a
+      >
+    </li>
+    <!-- 6 -->
+    <li class="nav-item fw-bold">
+      <a class="nav-link ps-0 d-flex align-items-center" href="#"
+        ><span class="material-symbols-outlined icon-fill me-4"> settings </span
+        >Setting</a
+      >
+    </li>
   </ul>
-</div>
+  <div class="mt-auto d-flex align-items-center">
+    <div class="me-4">
+      <img
+        class="img-fluid avatar"
+        src="../assets/images/andychen.jpeg"
+        alt="andychen"
+      />
+    </div>
+
+    <div>
+      <p class="fw-bold mb-1">Andy Chen</p>
+      <p class="text-muted mb-0">andy0401@mail.com</p>
+    </div>
+  </div>
+</nav>
