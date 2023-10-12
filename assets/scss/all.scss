@@ -1,6 +1,6 @@
-@import "../node_modules/bootstrap/scss/functions";
-@import "./helpers/variables.scss";
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/functions"; // variables要搭配function
+@import "./helpers/variables.scss"; //客製化變數
+@import "../node_modules/bootstrap/scss/bootstrap"; //等同於把所有BS5的scss都載入進來
 
 @import "./base/base.scss";
 @import "./layout/sidebar.scss";
